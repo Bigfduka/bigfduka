@@ -1,0 +1,10 @@
+name: Genre
+form: $/ad/amadeus/models/genre/fields.yaml
+modelClass: Ad\Amadeus\Models\Genre
+defaultRedirect: ad/amadeus/genre
+create:
+    redirect: 'ad/amadeus/genre/update/:id'
+    redirectClose: ad/amadeus/genre
+update:
+    redirect: ad/amadeus/genre
+    redirectClose: ad/amadeus/genre

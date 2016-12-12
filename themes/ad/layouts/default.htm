@@ -1,0 +1,47 @@
+[siteSearchInclude]
+==
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Landing Page Title</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+	<!--pageMeta-->
+
+	<!-- Lib CSS -->
+	<link href="//fonts.googleapis.com/css?family=Rancho|Open+Sans:400,300,300italic,400italic,600,600italic,700,800italic,700italic,800" rel="stylesheet">
+	<link href="{{'assets/minify/rgen_min.css'|theme}}" rel="stylesheet">
+	<link href="{{'assets/css/configstyle.css?rgDPy" id="config_style'|theme}}" rel="stylesheet">
+	<link href="{{'assets/css/custom.css" rel="stylesheet'|theme}}">
+
+	<!-- Favicons -->
+	<link rel="icon" href="assets/images/favicons/favicon.ico">
+	<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	<!--[if IE 9 ]><script src="js/ie-matchmedia.js"></script><![endif]-->
+
+</head>
+<body>
+<div id="page">
+{%partial 'header'%}
+{%page%}
+{%partial 'futer'%}
+
+</div>
+<!-- /#page --> 
+
+<!-- JavaScript --> 
+<script src="{{'assets/minify/rgen_min.js'|theme}}"></script>
+<script async=""{{'assets/js/rgen.js'|theme}}"></script>
+
+
+</body></html>

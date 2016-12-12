@@ -1,0 +1,10 @@
+name: Movie
+form: $/ad/amadeus/models/movie/fields.yaml
+modelClass: Ad\Amadeus\Models\Movie
+defaultRedirect: ad/amadeus/movie
+create:
+    redirect: 'ad/amadeus/movie/update/:id'
+    redirectClose: ad/amadeus/movie
+update:
+    redirect: ad/amadeus/movie
+    redirectClose: ad/amadeus/movie

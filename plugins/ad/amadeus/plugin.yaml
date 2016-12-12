@@ -1,0 +1,16 @@
+plugin:
+    name: 'ad.amadeus::lang.plugin.name'
+    description: 'ad.amadeus::lang.plugin.description'
+    author: ad
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: films
+        url: ad/amadeus/movie
+        icon: icon-life-ring
+        sideMenu:
+            side-menu-item:
+                label: genre
+                url: ad/amadeus/genre
+                icon: icon-sitemap

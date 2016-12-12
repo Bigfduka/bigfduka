@@ -1,0 +1,4 @@
+title: Genre
+modelClass: Ad\Amadeus\Models\Genre
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,4 @@
+title: Movie
+modelClass: Ad\Amadeus\Models\Movie
+toolbar:
+    buttons: reorder_toolbar

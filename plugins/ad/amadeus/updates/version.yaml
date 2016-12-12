@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table ad_amadeus_'
+    - builder_table_create_ad_amadeus_.php
+1.0.3:
+    - 'Updated table ad_amadeus_'
+    - builder_table_update_ad_amadeus_.php
+1.0.4:
+    - 'Created table ad_amadeus_genre'
+    - builder_table_create_ad_amadeus_genre.php
+1.0.5:
+    - 'Created table ad_amadeus_movie_genre'
+    - builder_table_create_ad_amadeus_movie_genre.php

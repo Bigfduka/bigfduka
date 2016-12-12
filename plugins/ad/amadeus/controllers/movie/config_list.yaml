@@ -1,0 +1,11 @@
+list: $/ad/amadeus/models/movie/columns.yaml
+modelClass: Ad\Amadeus\Models\Movie
+title: Movie
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'ad/amadeus/movie/update/:id'

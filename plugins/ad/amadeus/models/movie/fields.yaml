@@ -1,0 +1,31 @@
+fields:
+    name:
+        label: название
+        span: auto
+        type: text
+    discription:
+        label: описание
+        span: right
+        type: text
+    image:
+        label: картинка
+        mode: image
+        span: auto
+        type: mediafinder
+    link:
+        label: ссылка
+        span: auto
+        type: text
+    slug:
+        label: слаг
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    genres:
+        label: жанры
+        nameFrom: genre_name
+        descriptionFrom: description
+        span: auto
+        type: relation

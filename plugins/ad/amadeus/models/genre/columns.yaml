@@ -1,0 +1,10 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: false
+    genre_name:
+        label: жанр
+        type: text
+        searchable: true
+        sortable: true

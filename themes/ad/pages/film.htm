@@ -1,0 +1,29 @@
+title = "film"
+url = "/film/:slug"
+layout = "default"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "Ad\Amadeus\Models\Movie"
+identifierValue = "{{ :slug }}"
+modelKeyColumn = "slug"
+displayColumn = "name"
+notFoundMessage = "Record not found"
+==
+{% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+
+{% if record %}
+    <h1>{{ attribute(record, displayColumn) }}</h1>
+    <h5>{{ record.discription }}</h5>
+    <img src="{{record.image|media}}" alt="">
+    <a href="{{record.link}}"><h3>Download</h3></a>
+    {%for genre in record.genres%}
+    
+    {{genre.genre_name}}
+    
+    {%endfor%}
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}

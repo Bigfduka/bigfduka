@@ -1,0 +1,12 @@
+fields:
+    genre_name:
+        label: жанр
+        span: auto
+        type: text
+    slug:
+        label: слаг
+        span: auto
+        preset:
+            field: genre_name
+            type: slug
+        type: text
